@@ -35,7 +35,7 @@ e2e含义：端到端加密 (End-to-end encryption，E2EE)是一个只有参与�
 
 打开 wx_e2e.user.js 复制全部代码，浏览器中按 F12，在 console 中粘贴代码。
 
-![浏览器](img/3.jpg)
+![浏览器](img/browser.jpg)
 
 ## 1.4. License
 
