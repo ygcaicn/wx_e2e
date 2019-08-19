@@ -93,8 +93,8 @@ class WX_E2E {
                 '点击确认，承担风险。\r\n' +
                 '点击取消，返回编辑。');
             if (ret) {
-                if (msg.search('\r\n我正在使用wx_e2e发送消息。') < 0)
-                    msg = msg + '\r\n我正在使用wx_e2e发送消息。'
+                if (msg.search(`\r\n我正在使用wx_e2e发送消息。\r\n github.com/ygcaicn/wx_e2e`) < 0)
+                    msg = msg + `\r\n我正在使用wx_e2e发送消息。\r\n github.com/ygcaicn/wx_e2e`;
                 angular.element('#editArea').scope().editAreaCtn = msg;
                 let orig_ret = origsendTextMessage();
                 angular.element('#editArea').scope().editAreaCtn = '';
@@ -132,6 +132,7 @@ class WX_E2E {
         this.state = 0;
     }
 
+    
     decrypt(e_message) {
         this.crypt.setPrivateKey(this.pri_key);
         let e_message_l = [...e_message];

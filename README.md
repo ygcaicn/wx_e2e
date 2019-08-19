@@ -25,7 +25,10 @@ e2e含义：端到端加密 (End-to-end encryption，E2EE)是一个只有参与�
 ### 1.3.1. 浏览器插件（推荐）
 
 浏览器安装油猴插件
-官网： <https://www.tampermonkey.net/>
+官网： <https://www.tampermonkey.net/> *安装需要梯子！！！*
+
+国内下载安装地址: <http://chromecj.com/web-development/2019-05/2157/download.html> *非必须不推荐。*
+
 ![monkey](img/monkey.png)
 
 安装好以后点击下面的连接即可安装此脚本：

@@ -1,0 +1,30 @@
+{
+  "name": "wx_e2e",
+  "version": "1.0.0",
+  "description": "一个轻量级的，基于 web 微信([wechat](https://wx.qq.com))的端到端(e2e)加密通信，给你足够的隐私！",
+  "main": "wx_e2e.user.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src/wx_e2e.js -o dist/out_wx_e2e.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygcaicn/wx_e2e.git"
+  },
+  "keywords": [
+    "微信端到端加密"
+  ],
+  "author": "Jachin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ygcaicn/wx_e2e/issues"
+  },
+  "homepage": "https://github.com/ygcaicn/wx_e2e#readme"
+}
